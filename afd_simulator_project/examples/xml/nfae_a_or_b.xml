@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<automaton type="nfae">
+  <alphabet>
+    <symbol>a</symbol>
+    <symbol>b</symbol>
+  </alphabet>
+  <states>
+    <state name="q0" initial="true" accept="false" x="100" y="180" />
+    <state name="q1" initial="false" accept="false" x="260" y="80" />
+    <state name="q2" initial="false" accept="false" x="260" y="280" />
+    <state name="q3" initial="false" accept="true" x="460" y="180" />
+  </states>
+  <transitions>
+    <transition from="q0" symbol="λ" to="q1" />
+    <transition from="q0" symbol="λ" to="q2" />
+    <transition from="q1" symbol="a" to="q3" />
+    <transition from="q2" symbol="b" to="q3" />
+  </transitions>
+</automaton>

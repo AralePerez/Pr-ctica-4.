@@ -1,0 +1,59 @@
+{
+  "type": "nfae",
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "states": [
+    {
+      "name": "q0",
+      "initial": true,
+      "accept": false,
+      "x": 100,
+      "y": 180
+    },
+    {
+      "name": "q1",
+      "initial": false,
+      "accept": false,
+      "x": 260,
+      "y": 80
+    },
+    {
+      "name": "q2",
+      "initial": false,
+      "accept": false,
+      "x": 260,
+      "y": 280
+    },
+    {
+      "name": "q3",
+      "initial": false,
+      "accept": true,
+      "x": 460,
+      "y": 180
+    }
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "symbol": "λ",
+      "to": "q1"
+    },
+    {
+      "from": "q0",
+      "symbol": "λ",
+      "to": "q2"
+    },
+    {
+      "from": "q1",
+      "symbol": "a",
+      "to": "q3"
+    },
+    {
+      "from": "q2",
+      "symbol": "b",
+      "to": "q3"
+    }
+  ]
+}

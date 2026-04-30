@@ -1,0 +1,45 @@
+{
+  "type": "dfa",
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "states": [
+    {
+      "name": "q0",
+      "initial": true,
+      "accept": false,
+      "x": 180,
+      "y": 160
+    },
+    {
+      "name": "q1",
+      "initial": false,
+      "accept": true,
+      "x": 420,
+      "y": 160
+    }
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "symbol": "0",
+      "to": "q0"
+    },
+    {
+      "from": "q0",
+      "symbol": "1",
+      "to": "q1"
+    },
+    {
+      "from": "q1",
+      "symbol": "0",
+      "to": "q0"
+    },
+    {
+      "from": "q1",
+      "symbol": "1",
+      "to": "q1"
+    }
+  ]
+}

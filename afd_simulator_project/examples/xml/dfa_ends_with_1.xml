@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<automaton type="dfa">
+  <alphabet>
+    <symbol>0</symbol>
+    <symbol>1</symbol>
+  </alphabet>
+  <states>
+    <state name="q0" initial="true" accept="false" x="180" y="160" />
+    <state name="q1" initial="false" accept="true" x="420" y="160" />
+  </states>
+  <transitions>
+    <transition from="q0" symbol="0" to="q0" />
+    <transition from="q0" symbol="1" to="q1" />
+    <transition from="q1" symbol="0" to="q0" />
+    <transition from="q1" symbol="1" to="q1" />
+  </transitions>
+</automaton>
