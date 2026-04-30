@@ -103,6 +103,13 @@ Desde la carpeta del proyecto:
 cd afd_simulator_project
 python src/main.py
 
+Codigo fuente del programa se ecnucentra en el siguiente drive listo para ejecutar:
+https://drive.google.com/file/d/1tHDN9sEbnY0BygSqTHaFvOpzPaJtrTPo/view?usp=sharing
+
+<img width="1600" height="825" alt="image" src="https://github.com/user-attachments/assets/24fccd84-32ba-49d3-92f6-257cef76a3e6" />
+
+
+
 Si usas Visual Studio Code:
 1. Abre la carpeta afd_simulator_project.
 2. Abre una terminal nueva.
